@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row bg-dark text-light">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <h1>My Store</h1>
+                </div>
+                <div>
+                    <p>Home | Cart | Login</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="p-3">
+                    <h4>Frontend Developer</h4>
+                    <p>A front-end developer is a professional, responsible for crafting the visual and interactive components of websites and web applications. They utilize languages like HTML, CSS, and JavaScript to build the structure, style, and functionality of web pages, ensuring they look and perform seamlessly across various devices and browsers. They frequently work with back-end developers, who are in charge of creating and maintaining a web application's server side. They also work closely with designers to implement user interface designs, adding interactivity and enhancing user experiences through animations, forms, and real-time features. They also prioritize web performance optimization, debugging, and accessibility to create user-friendly and inclusive digital experiences. Staying up-to-date with evolving web technologies is a constant part of their role, ensuring that websites remain current and engaging for users.</p>
+                    <button class="btn btn-outline-success">Download Resume</button>
+                </div>
+            </div>
+            <div class="col-lg-6 p-3">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/4.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/2.webp" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/3.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-dark text-center">
+            <h1 class="text-center text-light" >Key Skills</h1>
+            <div class="col-lg-4">
+                <div class="bg-light w-50 m-4 p-5 text-center rounded-circle justify-content-between">HTML</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="bg-light w-50 m-4 p-5 text-center rounded-circle">CSS</div>
+            </div>
+            <div class="col-lg-4">
+                <div class="bg-light m-4 w-50 p-5 text-center rounded-circle">JavaScript</div>
+            </div>
+        </div>
+        <div class="row">
+            <h1 class="text-center">My Projects</h1>
+            <div class="col-lg-4">
+                <div class="card m-3">
+                    <img class="card-img-top" src="assets/3.jpg">
+                    <div class="card-body">
+                        <h1 class="card-title">Project 1</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <button class="btn btn-outline-success">View Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card m-3">
+                    <img class="card-img-top" src="assets/3.jpg">
+                    <div class="card-body">
+                        <h1 class="card-title">Project 2</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <button class="btn btn-outline-success">View Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card m-3">
+                    <img class="card-img-top" src="assets/3.jpg">
+                    <div class="card-body">
+                        <h1 class="card-title">Project 3</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <button class="btn btn-outline-success">View Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-secondary p-5 text-center text-light fs-3">
+            <div>@copyright 2025. All rights reserved.</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
